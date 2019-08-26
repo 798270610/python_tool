@@ -1,0 +1,20 @@
+程序实现步骤：
+  1.获取API接口，这里都是调用百度AI的各种功能API接口获得
+  2.使用Python的pyqt5 GUI框架制作出可视化界面
+
+获取API接口说明：
+
+  1.语音识别
+	http://ai.baidu.com/tech/speech/asrpro
+   创建应用，获得秘钥，保存好API key Secret key
+
+  2.截图文字识别
+	http://ai.baidu.com/tech/ocr/general
+
+  3.文字转语音
+	http://ai.baidu.com/tech/speech/tts
+
+  4.复制翻译：
+	http://fanyi-api.baidu.com/api/trans/product/index
+
+获取接口后打开main.exe进行参数配置，依次输入保存后即可使用
